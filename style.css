@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(231, 231, 231);
     grid-gap: 5px;
     display: grid;
     grid-template-areas: 
@@ -11,7 +11,7 @@ body{
         "sec pri pri"
         "rod rod rod";
     grid-template-columns: 20% auto auto;
-    grid-template-rows: auto 1000px auto;
+    grid-template-rows: auto auto auto;
 }
 .elemento_principal{
    
@@ -25,59 +25,65 @@ body{
 .card{
     border-radius: 10px;
     padding: 10px;
-     width: 300px;
+    width: 300px;
     margin: 20px;
     text-align: center;
-    box-shadow: 3px 6px 9px rgb(174, 113, 214);
+    box-shadow: 3px 6px 9px rgb(207, 228, 214);
     transition: 0.5s;
 }
 .texto a{
     display: block;
     padding: 10px 20px;
-    background-color: rgb(174, 113, 214);
-    color: white;
+    background-color: #a2c59f; 
+    color: rgb(128, 148, 122);
     border-radius: 20px;
     text-decoration: none;
     transition: 0.5s;
-}
-    
+} 
 .card:hover{
-    background-color: rgb(187, 161, 224);
-    color: white;
+    background-color: #e9e9e9;
+    color: rgb(48, 61, 35);
 }
 .card:hover a{
-    background-color: rgb(194, 164, 211);
-    color: rgb(152, 120, 211);
+    background-color: rgb(152, 179, 137);
+    color: rgb(18, 26, 16);
 } 
 .texto a:hover{
-    background-color: rgb(188, 152, 209);
+    background-color:#6b854e; 
 }
 header{
     grid-area: cab;
     top: 0;
     position:sticky;
-    background-color: rgb(248, 234, 255);
+    background-color:#b1c59a; 
     text-align: center;
+}
+.carrinho{
+    top: 0%;
+    left: 60%;
+    width: 45px;
+}
+.logo{
+    top: 0%;
+    right: 70%;
 }
 aside{
     grid-area: sec;
-    color: #d3b0eb;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); 
+    color: #98AB84;
+    box-shadow: 2px 2px 2px rgba(183, 204, 165, 0.4); 
 }
 main{
     grid-area: pri;
     border-radius: 5px;
-    background-color: rgb(225, 208, 248);
+    background-color: rgb(234, 248, 208);
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 .card img{
     width: auto;
     height: 200px;
 }
-
 .filho{
     background-color: #fff;
     width: 400;
@@ -95,7 +101,7 @@ footer{
 }
 
 aside, main, footer{
-    background-color: rgb(232, 219, 243);
+    background-color:#ffff;
 }
 
 #procura{
