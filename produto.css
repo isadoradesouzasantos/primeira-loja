@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 231, 231);
+    grid-gap: 5px;
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "sec pri pri"
+        "rod rod rod";
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto auto auto;
+}
+header{
+    grid-area: cab;
+    top: 0;
+    position:sticky;
+    background-color:#b1c59a; 
+    text-align: center;
+}
+aside{
+    grid-area: sec;
+    color: #98AB84;
+    box-shadow: 2px 2px 2px rgba(183, 204, 165, 0.4); 
+}
+main{
+    grid-area: pri;
+    border-radius: 5px;
+    background-color: rgb(234, 248, 208);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    grid-area: rod;
+}
+aside, main, footer{
+    background-color:#ffff;
+}

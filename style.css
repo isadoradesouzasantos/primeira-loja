@@ -63,7 +63,7 @@ header{
     left: 60%;
     width: 45px;
 }
-.logo{
+.logo1{
     top: 0%;
     right: 70%;
 }
@@ -99,7 +99,10 @@ main{
 footer{
     grid-area: rod;
 }
-
+.logo2{
+    left: 60%;
+    top: 0%;
+}
 aside, main, footer{
     background-color:#ffff;
 }
