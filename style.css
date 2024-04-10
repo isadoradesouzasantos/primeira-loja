@@ -49,45 +49,63 @@ body{
     color: rgb(18, 26, 16);
 } 
 .texto a:hover{
-    background-color:#6b854e; 
+    background-color:#6e8b4c; 
 }
 header{
-    grid-area: cab;
-    top: 0;
-    position:sticky;
+    grid-area: cab;   
+    position: relative;
     background-color:#b1c59a; 
     text-align: center;
 }
+.toquedeprata{
+    color: #748b59; 
+}
 .carrinho{
-    top: 0%;
-    left: 60%;
-    width: 45px;
+    position: absolute;
+    top: 6%;
+    right: 8%;
+    width: 35px;
 }
 .logo1{
+    width: 100px;
+}
+.bolsa{
+    position: absolute;
+    width: 50px;
     top: 0%;
-    right: 70%;
+    right: 10%;
+}
+.pessoa{
+    position: absolute;
+    width: 80px;
+    top: 0%;
+    right: 12%;
 }
 aside{
     grid-area: sec;
-    color: #98AB84;
-    box-shadow: 2px 2px 2px rgba(183, 204, 165, 0.4); 
 }
 main{
-    grid-area: pri;
+    grid-area: auto;
     border-radius: 5px;
     background-color: rgb(234, 248, 208);
     display: flex;
-    justify-content: space-around;
+
     align-items: center;
 }
+.anel{
+    width:300px; 
+}
+.alianças{
+    width: 200px;
+}
+
 .card img{
     width: auto;
     height: 200px;
 }
 .filho{
     background-color: #fff;
-    width: 400;
-    box-shadow: 4px 4px 4px 4px #aaaa;
+    width: 400; 
     border-radius: 5px;
 }
 
@@ -97,16 +115,16 @@ main{
     text-align: center;
 }
 footer{
+    position: relative;
     grid-area: rod;
 }
 .logo2{
-    left: 60%;
+    position: absolute;
+    width: 300px;
+    right: 9%;
     top: 0%;
 }
 aside, main, footer{
     background-color:#ffff;
 }
 
-#procura{
-    border-radius: 20%;
-}
