@@ -2,15 +2,27 @@
     margin: 0;
     padding: 0;
 }
+@media only screen and (max-width: 800px) {
+    body{
+        display: grid;
+        grid-template-areas: 
+            "cab"
+            "sec"
+            "pri"
+            "rod";
+        grid-template-columns: auto;
+        grid-template-rows: auto 200px auto auto;
+    }  
+}
 body{
     background-color: rgb(231, 231, 231);
-    grid-gap: 5px;
     display: grid;
+    gap: 15px;
     grid-template-areas: 
         "cab cab cab"
         "sec pri pri"
         "rod rod rod";
-    grid-template-columns: 20% auto auto;
+    grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: auto auto auto;
 }
 header{
@@ -102,7 +114,6 @@ main{
     top: 15%;
     right: 60%;
     width: 300px;
-
 }
 footer{
     grid-area: rod;
