@@ -1,7 +1,7 @@
 *{
     margin: 0%;
 }
-@media only screen and (max-width: px) {
+@media only screen and (max-width:800px) {
     body{
         grid-template-areas: 
            "cab" 
@@ -45,7 +45,7 @@ body{
 .texto a{
     display: block;
     padding: 10px 20px;
-    background-color: #a2c59f; 
+    background-color: #8fb88b; 
     color: rgb(128, 148, 122);
     border-radius: 20px;
     text-decoration: none;
@@ -60,16 +60,19 @@ body{
     color: rgb(18, 26, 16);
 } 
 .texto a:hover{
-    background-color:#6e8b4c; 
+    background-color:c; 
 }
 header{
     grid-area: cab;   
     position: relative;
-    background-color:#b1c59a; 
+    background-color:#cfe0cd; 
     text-align: center;
 }
+.berloque{
+    left: 30%;
+}
 .toquedeprata{
-    color: #748b59; 
+    color: #a4bb8b; 
 }
 .carrinho{
     position: absolute;
@@ -94,6 +97,9 @@ header{
 }
 aside{
     grid-area: sec;
+    position: relative;
+    background-color:#cfe0cd; 
+    padding: 10px;
 }
 main{
     grid-area: pri;
@@ -132,7 +138,8 @@ footer{
     position: absolute;
     width: 130px;
     right: 6%;
-    top: 0%}
-aside, main, footer{
+    top: 0%
+}    
+main, footer{
     background-color:#ffff;
 }
