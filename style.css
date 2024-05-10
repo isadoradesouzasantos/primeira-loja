@@ -137,9 +137,40 @@ footer{
 .logo2{
     position: absolute;
     width: 130px;
-    right: 6%;
+    right: 10%;
     top: 0%
-}    
+}
+.ajuda{
+    position: absolute;
+    top: 10%;
+    right: 4%;
+} 
+.pergunta{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+}   
+.garantia{
+    position: absolute;
+    top: 30%;
+    right: 3%; 
+}
+.regulamentos{
+    position: absolute;
+    top: 40%;
+    right: 1%;  
+}
 main, footer{
     background-color:#ffff;
 }
+.elementos li{
+    display: inline;
+}
+.elementos a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #a4bb8b;
+    margin: 20px;
+
+}
+
