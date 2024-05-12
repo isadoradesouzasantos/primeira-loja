@@ -89,7 +89,6 @@ main{
     border-radius: 20px;
     text-decoration: none;
     transition: 0.5s;
-    text-decoration: none;
     text-align: center;
     color: #020301;
 }
@@ -128,6 +127,80 @@ main{
 footer{
     grid-area: rod;
     position: relative;
+}
+.carteira{
+    position: absolute;
+    width: 50px;
+    top: 10%; 
+    right: 50%;
+}
+.carteira1{
+    position: absolute;
+    top: 50%;
+    right: 47%;
+}
+.troca{
+    position: absolute;
+    width: 50px;
+    top: 10%; 
+    right: 40%; 
+}
+.troca1{
+    position: absolute;
+    top: 50%;
+    right: 38%;
+}
+.caminhão{
+    position: absolute;
+    width: 60px;
+    top: 9%; 
+    right: 30%;
+}
+.caminhão1{
+    position: absolute;
+    top: 50%;
+    right: 29%;
+}
+.pagamento{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+.pagamento1{
+    position: absolute;
+    width: 20px;
+    top: 18%;
+    right: 4%;
+}
+.visa{
+    position: absolute;
+    width: 30px;
+    top: 40%;
+    right: 17%;
+}
+.master{
+    position: absolute;
+    width: 50px;
+    top: 40%;
+    right: 13%;
+}
+.elo{
+    position: absolute;
+    width: 40px;
+    top: 35%;
+    right: 10%; 
+}
+.pix{
+    position: absolute;
+    width: 20px;
+    top: 45%;
+    right: 8%;
+}
+.boleto{
+    position: absolute;
+    width: 30px;
+    top: 40%;
+    right: 5%;
 }
 aside, main, footer{
     background-color:#ffff;
