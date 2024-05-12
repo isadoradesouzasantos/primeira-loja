@@ -11,7 +11,7 @@
             "pri"
             "rod";
         grid-template-columns: auto;
-        grid-template-rows: auto 200px auto auto;
+        grid-template-rows: auto auto auto auto;
     }  
 }
 body{
@@ -29,11 +29,11 @@ header{
     grid-area: cab;
     top: 0;
     position: relative;
-    background-color:#b1c59a; 
+    background-color:#cfe0cd; 
     text-align: center;
 }
 .toquedeprata{
-    color: #748b59; 
+    color: #a4bb8b; 
 }
 .carrinho{
     position: absolute;
@@ -56,6 +56,16 @@ header{
     top: 0%;
     right: 6%;
 }
+.elementos li{
+    display: inline;
+}
+.elementos a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #a4bb8b;
+    margin: 20px;
+
+}
 aside{
     grid-area: sec;
     color: #98AB84;
@@ -70,9 +80,9 @@ main{
 }
 .compra{
     position: absolute;
-    width: 80px;
-    top: 72%;
-    left: 63%;
+    width: 100px;
+    top: 60%;
+    left: 50%;
 }
 .compra a{
     display: block;
@@ -81,49 +91,43 @@ main{
     transition: 0.5s;
     text-decoration: none;
     text-align: center;
-    color: #98AB84;
+    color: #020301;
 }
 .compra:hover{
     background-color: #e9e9e9;
-    color: rgb(48, 61, 35);
+    color: rgb(6, 7, 4);
 }
 .compra:hover a{
-    background-color: rgb(152, 179, 137);
-    color: rgb(18, 26, 16);
-} 
+    background-color: rgb(0, 0, 0);
+    color: #a4bb8b;
+}
 .nome{
     position: absolute;
     top: 20%;
-    left: 55%;
+    left: 40%;
     width: 40%;
 }
 .preço{
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 40%;
+    left: 50%;
     width: 70%;
 }
 .parcela{
     position: absolute;
-    top: 60%;
-    left: 60%;
+    top: 50%;
+    left: 50%;
     width: 70%;
 }
-.aliança{
+.anel{
     position: absolute;
-    top: 15%;
-    right: 60%;
+    top: 10%;
+    left: 10%;
     width: 300px;
 }
 footer{
     grid-area: rod;
     position: relative;
-}
-.logo2{
-    position: absolute;
-    width: 200px;
-    right: 2%;
-    top: 0%;
 }
 aside, main, footer{
     background-color:#ffff;

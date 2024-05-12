@@ -77,7 +77,7 @@ header{
 .carrinho{
     position: absolute;
     top: 6%;
-    right: 8%;
+    right: 3%;
     width: 35px;
 }
 .logo1{
@@ -87,13 +87,13 @@ header{
     position: absolute;
     width: 50px;
     top: 0%;
-    right: 10%;
+    right: 5%;
 }
 .pessoa{
     position: absolute;
     width: 80px;
     top: 0%;
-    right: 12%;
+    right: 7%;
 }
 aside{
     grid-area: sec;
@@ -134,12 +134,6 @@ footer{
     position: relative;
     grid-area: rod;
 }
-.logo2{
-    position: absolute;
-    width: 130px;
-    right: 10%;
-    top: 0%
-}
 .ajuda{
     position: absolute;
     top: 10%;
@@ -152,13 +146,87 @@ footer{
 }   
 .garantia{
     position: absolute;
-    top: 30%;
-    right: 3%; 
+    top: 40%;
+    right: 5%; 
 }
 .regulamentos{
     position: absolute;
+    top: 60%;
+    right: 3%;  
+}
+.carteira{
+    position: absolute;
+    width: 50px;
+    top: 10%; 
+    right: 50%;
+}
+.carteira1{
+    position: absolute;
+    top: 50%;
+    right: 47%;
+}
+.troca{
+    position: absolute;
+    width: 50px;
+    top: 10%; 
+    right: 40%; 
+}
+.troca1{
+    position: absolute;
+    top: 50%;
+    right: 38%;
+}
+.caminhão{
+    position: absolute;
+    width: 60px;
+    top: 9%; 
+    right: 30%;
+}
+.caminhão1{
+    position: absolute;
+    top: 50%;
+    right: 29%;
+}
+.pagamento{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+.pagamento1{
+    position: absolute;
+    width: 20px;
+    top: 18%;
+    right: 4%;
+}
+.visa{
+    position: absolute;
+    width: 30px;
     top: 40%;
-    right: 1%;  
+    right: 17%;
+}
+.master{
+    position: absolute;
+    width: 50px;
+    top: 40%;
+    right: 13%;
+}
+.elo{
+    position: absolute;
+    width: 40px;
+    top: 35%;
+    right: 10%; 
+}
+.pix{
+    position: absolute;
+    width: 20px;
+    top: 45%;
+    right: 8%;
+}
+.boleto{
+    position: absolute;
+    width: 30px;
+    top: 40%;
+    right: 5%;
 }
 main, footer{
     background-color:#ffff;
