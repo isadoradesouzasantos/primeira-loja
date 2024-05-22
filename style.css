@@ -1,0 +1,276 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(226, 202, 158);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+       "cab cab cab" 
+       "sec pri pri"
+       "rod rod rod";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto auto auto ;
+}
+header{
+    background-color: rgb(161, 129, 89);
+    grid-area: cab;
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.logo{
+    width: 100px;
+}
+.nome{
+    position: absolute;
+    color: #654b39;
+    font-size: x-large;
+    left: 6%;
+    top: 52%;
+}
+.carrinho{
+    position: absolute;
+    width: 40px;
+    top: 31%;
+    right: 6%;
+}
+.cadastro{
+    position: absolute;
+    width: 38px;
+    top: 31%;
+    right: 10%;
+}
+.menu{
+    position: absolute;
+    width: 38px;
+    right: 2%;   
+    top: 33%;
+}
+.lupa{
+    position: absolute;
+    width: 45px;
+    top: 20%;
+    right: 10%;
+}
+.pesquisa input{
+    position: absolute;
+    top: 37%;
+    right: 15%;
+    padding: 9px;    
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(77, 56, 32);
+    color: #000;
+    display: flex;
+    outline: none;
+}
+.pesquisa img{
+    position: absolute;
+    width: 25px;
+    top: 40%;
+    right: 16%;
+}
+.elementos li{
+    display: inline;
+    position: relative;
+    right: 72%;
+}
+.elementos a{
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: large;
+    margin: 20px;
+    color: black;
+    box-shadow: 3px 6px 9px rgb(114, 93, 52);
+    border-radius: 10px;
+}
+.elementos a:hover{
+    background-color: rgb(114, 78, 32);
+    transition: 0.5s;
+    box-shadow: 3px 6px 9px rgb(139, 114, 65);
+}
+aside{
+    grid-area: sec;
+    display: flex;
+    position: absolute;
+    border-radius: 5px;
+}
+.cards-aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    padding: 10px 0px;
+    margin-top: 50%;
+}
+.cards-avaliação{
+    border-radius: 10px;
+    background-color: rgb(114, 78, 32);
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 3px 6px 9px rgb(139, 114, 65);
+}
+.cards-avaliação img{
+    width: 60px;
+}
+.cards-avaliação h5{
+    text-align: center;
+    margin-top: 3%;
+}
+.cards-avaliação h3{
+    text-align: center;
+    margin-top: 3%;
+}
+.produtos{
+    position: absolute;
+    left: 40%;
+    width: 70px;
+}
+main{
+    grid-area: pri;
+    display: flex;
+    align-items: center;
+}
+.fundo{
+    width: 400px;
+    border-radius: 10%;
+    position: absolute;
+    top: 20%;
+    left: 23%;
+}
+.sobre-nós h1{
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre-nós h4{
+    position: absolute;
+    top: 30%;
+    left: 56%;
+    color: rgb(139, 114, 65);
+}
+.sobre-nós h3{
+    position: absolute;
+    top: 36%;
+    left: 55%;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;;
+    width: 2200px;
+    margin-top: 40%;
+    padding-right: 7%;
+    gap: 5px;
+    flex-direction: row;
+}
+.card{
+    background-color: rgb(231, 220, 186);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 3px 6px 9px rgb(88, 77, 54);
+    transition: 0.5s;
+}
+.card:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.card a{
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(114, 78, 32); 
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+} 
+.cafe3{
+    width: 207px;
+}
+.xicara1{
+    width: 230px;
+}
+.xicara2{
+    width: 230px;
+}
+.xicara3{
+    width: 230px;
+}
+.cafeteira1{
+    width: 132px;
+}
+.cafeteira2{
+    width: 114px;
+}
+.cafeteira3{
+    width: 140px;
+}
+.capsula3{
+    width: 200px;
+}
+.texto1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    grid-area: rod;
+    position: relative;
+    background-color: rgb(124, 71, 6);
+}
+.informações{
+    position: absolute;
+    top: 14%;
+    left: 5%;
+}
+.informações h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.informa2 h4{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+.carteira{
+    width: 60px;
+    margin-left: 70%;
+}
+.caminhão{
+    width: 60px;
+    margin-left: 75%; 
+}
+.pagamento{
+    
+    top: 20%;
+    left: 80%;
+}
+.pagamento1{
+    
+    width: 20px;
+    top: 18%;
+    right: 4%;
+}
+.pagamento{
+    margin-left: 75%;
+}
+.pagamentos img{
+    width: 300px;
+    margin-left: 70%;
+}
+
