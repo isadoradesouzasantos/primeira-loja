@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(226, 202, 158);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: rgb(161, 129, 89);
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.logo{
+    width: 100px;
+}
+.nome{
+    position: absolute;
+    color: #654b39;
+    font-size: x-large;
+    left: 6%;
+    top: 52%;
+}
+.carrinho{
+    position: absolute;
+    width: 40px;
+    top: 31%;
+    right: 6%;
+}
+.cadastro{
+    position: absolute;
+    width: 38px;
+    top: 31%;
+    right: 10%;
+}
+.menu{
+    position: absolute;
+    width: 38px;
+    right: 2%;   
+    top: 33%;
+}
+.lupa{
+    position: absolute;
+    width: 45px;
+    top: 20%;
+    right: 10%;
+}
+.pesquisa input{
+    position: absolute;
+    top: 37%;
+    right: 15%;
+    padding: 9px;    
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(77, 56, 32);
+    color: #000;
+    display: flex;
+    outline: none;
+}
+.pesquisa img{
+    position: absolute;
+    width: 25px;
+    top: 40%;
+    right: 16%;
+}
+.elementos li{
+    display: inline;
+    position: relative;
+    right: 72%;
+}
+.elementos a{
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: large;
+    margin: 20px;
+    color: black;
+    box-shadow: 3px 6px 9px rgb(114, 93, 52);
+    border-radius: 10px;
+}
+.elementos a:hover{
+    background-color: rgb(114, 78, 32);
+    transition: 0.5s;
+    box-shadow: 3px 6px 9px rgb(139, 114, 65);
+}
+main{
+    position: relative;
+}
+.cafe{
+    position: absolute;
+    margin-top: 4%;
+    left: 10%;
+    width: 400px;
+    border-radius: 20px;
+}
+.estrela{
+    position: absolute;
+    width: 100px;
+    margin-top: 7%;
+    left: 45%;
+}
+.lateral h1{
+    position: absolute;
+    left: 45%;
+    margin-top: 4%;
+}
+.lateral h2{
+    position: absolute;
+    left: 45%;
+    margin-top: 7%;
+}
+.lateral h4{
+    position: absolute;
+    left: 45%;
+    margin-top: 12%;
+}
+.lateral P{
+    position: absolute;
+    left: 45%;
+    margin-top: 14%;
+}
+.preço h2{
+    position: absolute;
+    left: 45%;
+    margin-top: 21%;
+}
+.preço h4{
+    position: absolute;
+    left: 45%;
+    margin-top: 23%;
+}
+fieldset{
+    border: 0;
+    position: absolute;
+    margin-top: 26%;
+    left: 45%;
+}
+select option{
+    border-radius: 20px;
+    background-color: #000;  
+}
+select{
+    border:a 0;
+    border-radius: 20px;
+    background-color: rgb(161, 129, 89);
+    color: #ccc;
+}
+.descrição h2{
+    position: absolute;
+    margin-top: 37%;
+    left: 7%;
+}
+.descrição p{
+    position: absolute;
+    margin-top: 41%;
+    left: 5%;
+    margin-right: 20px;
+}
+button{
+    position: absolute;
+    margin-top: 29%;
+    left: 52%;
+    padding: 14px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #654b39;
+    box-shadow: 2px 2px rgb(161, 129, 89);
+}
+button:hover{
+    background-color: rgb(107, 84, 36);
+    color: black;
+    transform: scale(1.1)
+}
+.footer2{
+    position: absolute;
+    margin-top: 55%;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.informa2 h3{
+    position: absolute;
+    margin-top: 62%;
+    right: 6%;
+}
+.pagamento{
+    position: absolute;
+    width: 300px;
+    margin-top: 64%;
+    right: 11%;
+}
+.img1{
+    width: 50px;
+    position: absolute;
+    margin-top: 58%;
+    left: 32%;
+}
+.carteira1{
+    position: absolute;
+    margin-top: 63%;
+    left: 28%;
+}
+.img2{
+    width: 48px;
+    position: absolute;
+    margin-top: 58%;
+    left: 42%;
+}
+.troca1{
+    position: absolute;
+    margin-top: 63%;
+    left: 41%;
+}
+.img3{
+    width: 65px;
+    position: absolute;
+    margin-top: 58%;
+    left: 51%;
+}
+.caminhão1{
+    position: absolute;
+    margin-top: 63%;
+    left: 51%;
+}

@@ -7,7 +7,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header{
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     right: 0;
@@ -46,7 +46,7 @@ main{
     width: 130px;
 }
 table{
-    margin-top: 15%;
+    margin-top: 8%;
     width: 100%;
     border-collapse: collapse;
 }
@@ -60,6 +60,24 @@ th{
 }
 td{
     padding: 15px 0;
+}
+.lixeira1{
+    position: absolute;
+    width: 40px;
+    top: 15%;
+    right: 8%;
+}
+.lixeira2{
+    position: absolute;
+    width: 40px;
+    top: 76%;
+    right: 8%;
+}
+.lixeira3{
+    position: absolute;
+    width: 40px;
+    top: 43%;
+    right: 8%;
 }
 .quantidade{
     background-color: #ccc;
