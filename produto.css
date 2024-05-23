@@ -170,8 +170,13 @@ button{
     background-color: #654b39;
     box-shadow: 2px 2px rgb(161, 129, 89);
 }
+button a{
+    color: #000;
+    text-decoration: none;
+    font-size: larger;
+}
 button:hover{
-    background-color: rgb(107, 84, 36);
+    background-color:rgb(161, 129, 89); 
     color: black;
     transform: scale(1.1)
 }

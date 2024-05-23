@@ -2,6 +2,34 @@
     margin: 0%;
     padding: 0%;
 }
+@media(max-width:800px){
+    body{
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: grid;
+        gap: 15px;
+        grid-template-areas: 
+           "cab cab cab" 
+           "sec pri pri"
+           "rod rod rod";
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: auto auto auto;
+    }
+    .lateral{width: 300px;}
+    header{padding: 16px 60px;}
+    .nome{
+        position: absolute;
+        margin-top: 40px;
+    }
+}
+@media (max-width:673px){
+    .elementos{display: none;}
+    .lateral{display: none;}
+    main{
+        padding: 50px;
+        left: 20%;
+    }
+}
 body{
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,7 +44,7 @@ body{
 }
 header{
     grid-area: cab;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     right: 0;
@@ -52,13 +80,12 @@ main{
 }
 .lateral{
     position: absolute;
-    margin-top: 40%;
-    left: 280%;
+    left: 260%;
 }
 .cadastro{
     position: absolute;
     background-color: #885d39;
-    margin-top: 50%;
+    margin-top: 15%;
     left: 70%;
     border-radius: 18px;
     padding: 30%;
