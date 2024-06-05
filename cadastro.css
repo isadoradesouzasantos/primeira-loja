@@ -24,11 +24,14 @@
 }
 @media (max-width:673px){
     .elementos{display: none;}
-    .lateral{display: none;}
+    .lateral{width: 160px;}
     main{
         padding: 50px;
         left: 20%;
     }
+}
+@media (max-width:499px){
+    .lateral{display: none;}
 }
 body{
     background-color: black;

@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
-@media (max-width:830px){
+@media  (max-width:1075px) {
     body{
         background-color: rgb(226, 202, 158);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,12 +13,8 @@
            "sec pri pri"
            "rod rod rod";
         grid-template-columns: 1fr 2fr 2fr;
-        grid-template-rows: auto auto auto ;
+        grid-template-rows: auto auto auto auto;
     }
-    .cards-avaliação{display: none;}
-    header{padding: 20px;}
-    .elementos{display: none;}
-    
 }
 body{
     background-color: rgb(226, 202, 158);
@@ -33,7 +29,6 @@ body{
     grid-template-rows: auto auto auto auto;
 }
 header{
-    
     grid-area: cab;
     position: relative;
     width: 100%;
@@ -43,7 +38,49 @@ header{
     align-items: center;
     justify-content: space-between;   
 }
-
+.nav_mobile ul{
+    list-style: none;
+    border: none;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    
+}
+.nav_mobile input[type="checkbox"]{
+     display: none;
+}
+.nav_mobile nav{
+    border: rgb(133, 91, 29) solid;
+    width: 350px;
+    height: 47vh;
+    position: absolute;
+    right: -0px;
+    top: 30px;
+    transition: all 0.3s;
+    background-color: rgb(212, 187, 139);
+}
+.nav_mobile a{
+    display: block;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 1px 1px 8px rgb(77, 56, 32);
+    font-size: larger;
+}
+.nav_mobile a:hover{
+    background-color: rgb(114, 78, 32);
+    transition: 0.5s;
+    box-shadow: 3px 6px 9px rgb(139, 114, 65);
+}
+.nav_mobile label{
+    position: absolute;
+    z-index: 1;
+    right: 2%;
+    top: 40%;
+}
+.nav_mobile input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
 .logo{
     width: 100px;
 }
@@ -65,12 +102,6 @@ header{
     width: 38px;
     top: 31%;
     right: 10%;
-}
-.menu{
-    position: absolute;
-    width: 38px;
-    right: 2%;   
-    top: 33%;
 }
 .lupa1{
     position: absolute;
@@ -218,6 +249,27 @@ main{
     text-decoration: none;
     transition: 0.5s;
 } 
+.card img{
+    animation: floating 6s ease-out
+    infinite;
+}
+@keyframes floating{
+    0%{
+        transform: translateY(0)
+        rotate(0);
+    }
+    50%{
+        transform: translatey(-15px)
+        rotate(4deg);
+    }
+    100%{
+        transform: translateY(0)
+        rotate(0);
+    }
+}
+.cafe1{
+    width: 190px;
+}
 .cafe3{
     width: 207px;
 }
