@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media(max-width:800px){
+    body{
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: grid;
+        gap: 15px;
+        grid-template-areas: 
+           "cab cab cab" 
+           "sec pri pri"
+           "rod rod rod";
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: auto auto auto;
+    }
+    .lateral{width: 300px;}
+    header{padding: 16px 60px;}
+    .nome{
+        position: absolute;
+        margin-top: 40px;
+    }
+}
+@media (max-width:673px){
+    .elementos{display: none;}
+    .lateral{width: 160px;}
+    main{
+        padding: 50px;
+        left: 20%;
+    }
+}
+@media (max-width:499px){
+    .lateral{display: none;}
+}
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+       "cab cab cab" 
+       "sec pri pri"
+       "rod rod rod";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto auto auto;
+}
+header{
+    grid-area: cab;
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;   
+}
+.logo{
+   width: 100px;
+}
+.elementos li{
+    display: inline;
+}
+.elementos a{
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: large;
+    margin: 20px;
+    color: #836d5d;
+    box-shadow: 3px 6px 9px rgb(126, 110, 80);
+    border-radius: 10px;
+}
+.elementos a:hover{
+    background-color: #9b7a63;
+    transition: 0.3s;
+    border-radius: 8%;
+}
+main{
+    grid-area: sec;
+    position: relative;
+}
+.lateral{
+    position: absolute;
+    left: 260%;
+}
+.cadastro{
+    position: absolute;
+    background-color: #885d39;
+    margin-top: 15%;
+    left: 70%;
+    border-radius: 18px;
+    padding: 30%;
+    box-shadow: 3px 6px 9px rgb(175, 167, 138);
+}
+input{
+    padding: 6px;
+}
+.botao{
+    margin: 30% 20%;
+    top: 80%;
+    padding: 10px 30px;
+    background-color: #382416 ;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: #463325;    
+}
+.nome{
+    position: absolute;
+    color: #654b39;
+    font-size: x-large;
+    left: 6%;
+    top: 52%;
+}
+.cadastro input{
+    border-radius: 12px;
+    border: none;
+}
+.lateral img{
+    position: relative;
+    margin-top: 10%;
+    right: 7%;
+    width: 600px;
+}
