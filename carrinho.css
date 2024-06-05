@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(226, 202, 158);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: rgb(161, 129, 89);
+    justify-content: space-between;   
+}
+.logo{
+    width: 100px;
+}
+.nome1{
+    position: absolute;
+    color: #000;
+    font-size: x-large;
+    left: 6%;
+    top: 52%;
+}
+.seta{
+    position: absolute;
+    width: 32px;
+    top: 33%;
+    right: 62%;
+}
+.carrinho{
+    position: absolute;
+    left: 37%;
+}
+main{
+    position: relative;
+    padding-left:  30px;
+    padding-right: 30px;
+}
+.cafe{
+    width: 130px;
+}
+table{
+    margin-top: 8%;
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 3px solid #000;
+}
+th{
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px 0;
+}
+.lixeira1{
+    position: absolute;
+    width: 40px;
+    top: 15%;
+    right: 8%;
+}
+.lixeira2{
+    position: absolute;
+    width: 40px;
+    top: 76%;
+    right: 8%;
+}
+.lixeira3{
+    position: absolute;
+    width: 40px;
+    top: 43%;
+    right: 8%;
+}
+.quantidade{
+    background-color: #ccc;
+    display: inline-flex;
+    padding: 5px 0;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 60px;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    background: #ccc;
+    padding: 15px;
+}
+.informação{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.nome2{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 20%;
+    left: 15%;
+}
+.pesog{
+    color: rgb(124, 93, 26);
+    padding: 10px;
+}
