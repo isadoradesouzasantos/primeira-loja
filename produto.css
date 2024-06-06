@@ -71,7 +71,7 @@ header{
 .elementos li{
     display: inline;
     position: relative;
-    right: 72%;
+    right: 120%;
 }
 .elementos a{
     padding: 8px 14px;
@@ -167,7 +167,7 @@ button{
     padding: 14px;
     border-radius: 30px;
     border: 0;
-    background-color: #654b39;
+    background-color: rgb(161, 129, 89);
     box-shadow: 2px 2px rgb(161, 129, 89);
 }
 button a{
@@ -176,7 +176,6 @@ button a{
     font-size: larger;
 }
 button:hover{
-    background-color:rgb(161, 129, 89); 
     color: black;
     transform: scale(1.1)
 }

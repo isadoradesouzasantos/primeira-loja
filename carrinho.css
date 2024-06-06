@@ -87,12 +87,25 @@ td{
     align-items: center;
     min-width: 60px;
     border-radius: 5px;
+    overflow: hidden;
+    height: 35px;
 }
-.button{
+.quantiade>button{
     display: flex;
     align-items: center;
-    background: #ccc;
-    padding: 15px;
+    background: transparent;
+    padding: 7px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    height: 100%;
+}
+.quantiade>button:hover{
+    font-size: 22px;
+    background-color: #ccc;
+}
+.quantidade>span{
+    margin: 0 10px;
 }
 .informação{
     display: flex;

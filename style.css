@@ -44,7 +44,6 @@ header{
     position: absolute;
     top: 50px;
     width: 100%;
-    
 }
 .nav_mobile input[type="checkbox"]{
      display: none;
@@ -130,7 +129,7 @@ header{
 .elementos1 li{
     display: inline;
     position: relative;
-    right: 72%;
+    right: 120%;
 }
 .elementos1 a{
     padding: 8px 14px;
@@ -346,3 +345,4 @@ footer{
     right: 11%;
     width: 350px;
 }
+
