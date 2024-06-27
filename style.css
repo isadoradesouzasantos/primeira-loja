@@ -16,6 +16,8 @@
         grid-template-rows: auto auto auto auto;
     }
 }
+
+/* inicio body */
 body{
     background-color: rgb(226, 202, 158);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,6 +30,9 @@ body{
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: auto auto auto auto;
 }
+/* fim body */
+
+/* inicio header */
 header{
     grid-area: cab;
     position: relative;
@@ -37,6 +42,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;   
+}
+/* fim header */
+
+/* inicio menu retratil */
+.menu{
+    width: 30px;
 }
 .nav_mobile ul{
     list-style: none;
@@ -80,6 +91,8 @@ header{
 .nav_mobile input[type="checkbox"]:checked ~ nav{
     transform: translateX(350px);
 }
+/* fim menu retratil */
+
 .logo{
     width: 100px;
 }
@@ -168,6 +181,7 @@ aside{
     margin: 20px;
     text-align: center;
     box-shadow: 3px 6px 9px rgb(139, 114, 65);
+    color: rgb(226, 202, 158);
 }
 .cards-avaliação img{
     width: 60px;
@@ -175,10 +189,12 @@ aside{
 .cards-avaliação h5{
     text-align: center;
     margin-top: 3%;
+    color: rgb(226, 202, 158);
 }
 .cards-avaliação h3{
     text-align: center;
     margin-top: 3%;
+    color: rgb(226, 202, 158);
 }
 .produtos{
     position: absolute;
